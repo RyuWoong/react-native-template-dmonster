@@ -15,7 +15,8 @@ npx react-native-rename "App Name" -b com.dmonster.appname
 ```
 
 👆 위 명령어를 사용해 **앱 이름**과 **번들명**을 수정해줍니다.
-전부가 다 변경되는건 아니지만 대부분의 이름이 수정되며, 번들명도 수정됩니다. (ios는 xcode에서 추가로 수정)
+전부가 다 변경되는건 아니지만 대부분의 이름이 수정되며, 번들명도 수정됩니다. (ios는 xcode에서 추가로 수정)  
+* 주의 - Display App Name은 수정되지 않으니 체크후 수정합니다.
 
 ```
 react-native set-splash --path "./Assets/Images/splash.png" --resize "cover" --background "#색상값"
